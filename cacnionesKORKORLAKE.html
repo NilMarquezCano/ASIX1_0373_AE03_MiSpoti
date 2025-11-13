@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="albumes.html">Albumes</a></li>
+    <li><a href="cacnionesKORKORLAKE.html">Canciones KOR KOR LAKE</a></li>        <!--Aqui esta el menú para navegar entre las distintas pestañas-->
+    <li><a href="cacnionesSTARINA.html">Canciones STARINA</a></li>
+    <li><a href="cacnionesY3Y.html">Canciones Y3Y</a></li>
+  </ul>
+
+    <h1> CANCIONES Y HISTORIA DE KOR KOR LAKE </h1>
+
+    
+      <ul>
+        <li> Artista: Rojuu </li>
+        <li> Año de lanzamiento: 2022</li>
+        <li>Género: Emo Rap, Indie Pop</li>
+        <li>Formato: Vinilo LP (rojo) </li>
+      </ul>
+    
+
+    <h3>En este album encontramos canciones como:</h3>
+    <h4>Fantasia Placebo</h4>
+      <audio controls> <!-- Esto reproduce un MP3 usando solo HTML -->
+          <source src="./multimedia/audio/Rojuu-FANTASÍAPLACEBO.mp3" type="audio/mpeg"> <!--Canço descarregada amb mp3-->
+        </audio>
+    <h4>NANA</h4>
+      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4ybXS7VlphrklmZ3pQxb81?utm_source=generator" width="100%" height="152"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> <!--Enllaç tret de spotyfi per la reproducció de la cançó-->
+    <h4>NEZUKO</h4>
+      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2mlcoZY6hKlOCUaU3HO9PS?utm_source=generator" width="100%" height="152"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> <!--Enllaç tret de spotyfi per la reproducció de la cançó-->
+
+ <h2 style="text-align: center;">Si desea entrar en la news letter de Rojuu pon tu correo y contraseña para mas información</h2>
+    <form style="text-align: center;" action="./Login.html" method="post" autocomplete="on"> <!--Comando para la news letter -->
+        <label for="email">Correo electrónico</label>           <!--Ranura para el email-->
+        <input id="email" name="email" type="email" required>   
+    <br>
+        <label for="password">Contraseña</label>
+        <input id="password" name="password" type="password" required minlength="8"> <!-- Ranura de contraseña con puntos y minimo 8 caracteres-->
+    <br>    
+        <button type="submit">Entrar</button>
+    </form>
+  
+  </body>
+</html>
